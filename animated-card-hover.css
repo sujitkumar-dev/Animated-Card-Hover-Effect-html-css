@@ -46,3 +46,9 @@ body {
 .text:hover {
   transform: translateY(-100%);
 }
+
+@media (max-width: 500px) {
+    .container{display: block; width: 100%; }
+    .card{width: 100%; margin-top: 20px;}
+   
+}
